@@ -1,0 +1,119 @@
+
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+header{
+    height: 180px;
+    background-color: rgba(245, 239, 239, 0.884);
+}
+img{
+    padding: 10px 10px;
+    width: 150px;
+    height: 120px;
+    border-radius: 500px;
+    
+    
+}
+.c1
+{
+    width: 490px;
+    height: 105px;
+    background-color: rgba(245, 239, 239, 0.884);
+    float: right;
+    padding: 20px 30px;
+    margin: 10px ;
+    
+}
+.c2{
+    width: 250px;
+    height: 70px;
+    background-color: rgba(245, 239, 239, 0.884);
+    float: left;
+    
+    
+    
+}
+.c3{
+    width: 250px;
+    height: 70px;
+    background-color: rgba(245, 239, 239, 0.884);
+    margin-left: 250px;
+    margin-top: -40%;
+    
+    
+}
+
+nav{
+    
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background-color:rgb(3, 3, 53);
+    margin-top: 0px;
+    position: relative;
+    
+    
+    
+}
+nav a{
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 5px;
+    
+}
+@media screen and (max-width: 500px) {
+    nav a {
+      float: none;
+      display: block;
+    }
+}
+i{
+    text-align: center;
+    padding: 3px 15px;
+    font-size: 20px;
+    padding-bottom: 15px;
+    
+
+}
+.menu-items{
+    padding-top: 10px;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+b{
+    color: rgb(70, 68, 68);
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+span{
+    color: rgb(70, 113, 192);
+    font-size: 13px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h4{
+    color: rgb(80, 78, 78);
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.img1{
+    border-radius: 500px;
+    width: 50px;
+    height: 40px;
+    margin-bottom: 5px;
+    top: 50%;
+    left: 30%;
+    transform: translate(-3%,-70%);
+    float: right;
+}
+
